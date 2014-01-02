@@ -30,10 +30,13 @@
         "barryvdh/laravel-ide-helper": "1.*"
     },
     "autoload"         : {
+        "psr-0"   : {
+            "LaravelApp\\Command\\"   : "app/commands/",
+            "LaravelApp\\Controller\\": "app/controllers/",
+            "LaravelApp\\Model\\"     : "app/models/",
+            "LaravelApp\\Provider\\"  : "app/providers/"
+        },
         "classmap": [
-            "app/commands/",
-            "app/controllers/",
-            "app/models/",
             "app/database/migrations/",
             "app/database/seeds/",
             "app/tests/TestCase.php"
