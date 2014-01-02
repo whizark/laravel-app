@@ -1,3 +1,4 @@
 /bootstrap/compiled.php
 /vendor
+/_ide_helper.php
 composer.lock
